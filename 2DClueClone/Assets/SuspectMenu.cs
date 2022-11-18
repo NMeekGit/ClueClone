@@ -5,17 +5,18 @@ using UnityEngine;
 public class SuspectMenu : MonoBehaviour
 {
     public static bool isOpen = false;
+
     public GameObject journalUI;
+    public GameObject suspectsPage;
+    public GameObject inspectPage;
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.J)) {
             if(isOpen) {
-                //Close Menu
                 CloseJournal();
             } else {
-                //Open Menu
                 OpenJournal();
             }
         }
@@ -29,5 +30,17 @@ public class SuspectMenu : MonoBehaviour
     public void OpenJournal() {
         journalUI.SetActive(true);
         isOpen = true;
+    }
+
+    public void Inspect() {
+        suspectsPage.SetActive(false);
+        inspectPage.SetActive(true);
+
+        //Set UI's sprite to Item's sprite
+    }
+
+    public void Back() {
+        suspectsPage.SetActive(true);
+        inspectPage.SetActive(false);
     }
 }
