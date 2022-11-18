@@ -1,3 +1,9 @@
+/* MurderSelect.cs
+ * Author: Mateos Pereira
+ * Date: 11/18/2022
+ * Purpose: Selects a murderer and returns their giving items to determine whether or not
+ *      they are the murderer or not. Built for Aztec Game Lab Workshop 3: Puzzle Game.
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
