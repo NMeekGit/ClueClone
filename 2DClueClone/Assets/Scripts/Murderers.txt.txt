@@ -1,0 +1,21 @@
+1:
+Name: "Chef"
+Weapons: "Knife", "Dirty Apron", "Cigarette Butt", "Beer Bottle"
+
+2:
+Name: "House Maid"
+Weapons: "Candlestick", "Letter Opener", "Watch", "Rope"
+
+3:
+Name: "Gardener"
+Weapons: "Trowl", "Rope", "Dirty Apron", "Chemicals"
+
+4:
+Name: "Pirate"
+Weapons: "
+Chef - knife, dirty jacket, Cigarette butt, beer bottle
+House maid - candlestick, letter opener, watch, rope
+Gardener - garden tool, rope, dirty jacket, Chemicals
+Pirate - rope, beer bottle, Cigarette butt, garden tool
+Butler - knife,  letter opener, watch, candlestick
+Pool boy - Chemicals, rope, garden tool, watch
