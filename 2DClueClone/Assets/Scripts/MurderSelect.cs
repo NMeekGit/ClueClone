@@ -73,5 +73,9 @@ public class MurderSelect : MonoBehaviour {
     public string[] GetCharacterItems(int num) {
         return killers[killersNames[num]];
     }
+    public string GetCharacterItems(string ch, int i) {
+        string[] items = killers[ch];
+        return items[i];
+    }
     
 }
