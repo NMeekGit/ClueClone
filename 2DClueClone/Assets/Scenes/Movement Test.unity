@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 264244495}
   m_Layer: 5
   m_Name: Suspect1
-  m_TagString: Untagged
+  m_TagString: Button1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1140,6 +1140,8 @@ MonoBehaviour:
   journalUI: {fileID: 858441886}
   suspectsPage: {fileID: 2004701478}
   inspectPage: {fileID: 1546000778}
+  portaits: []
+  pfp: {fileID: 1045354814}
 --- !u!1 &462479750
 GameObject:
   m_ObjectHideFlags: 0
