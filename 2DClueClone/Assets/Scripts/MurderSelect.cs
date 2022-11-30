@@ -11,10 +11,10 @@ using UnityEngine;
 public class MurderSelect : MonoBehaviour {
 
     // Private Fields
-    private Dictionary<string, string[]> killers = new Dictionary<string, string[]>();
+    private Dictionary<string, int[]> killers = new Dictionary<string, int[]>();
     private string[] killersNames = {"Chef", "House Maid", "Gardener", "Pirate", "Butler", "Pool Boy"};
     private string killerDictionaryKey;
-    private string[] killerItems;
+    private int[] killerItems;
     
     // Awakes when the game starts and selects a killer
     void Awake() {
@@ -43,12 +43,24 @@ public class MurderSelect : MonoBehaviour {
         
         killerDictionaryKey = killersNames[killVal];
 
-        string[] chefItems = {"Knife", "Dirty Apron", "Cigarette Butt", "Beer Bottle"};
-        string[] maidItems = {"Candlestick", "Letter Opener", "Watch", "Rope"};
-        string[] gardenerItems = {"Trowl", "Rope", "Dirty Apron", "Chemicals"};
-        string[] pirateItems = {"Rope", "Beer Bottle", "Cigarette Butt", "Trowl"};
-        string[] butlerItems = {"Knife", "Letter Opener", "Watch", "Candlestick"};
-        string[] poolBoyItems = {"Chemicals", "Rope", "Trowl", "Watch"};
+        /* Item Indices (for alec)
+        0 knife
+        1 dirty apron
+        2 cigarette butt
+        3 beer bottle
+        4 candlestick
+        5 letter opener
+        6 watch
+        7 rope
+        8 trowl
+        9 chemicals*/
+
+        int[] chefItems = {0, 1, 2, 3};
+        int[] maidItems = {4, 5, 6, 7};
+        int[] gardenerItems = {1, 7, 8, 9};
+        int[] pirateItems = {2, 3, 7, 8};
+        int[] butlerItems = {0, 4, 5, 6};
+        int[] poolBoyItems = {6, 7, 8, 9};
         
         killers.Add("Chef", chefItems);
         killers.Add("House Maid", maidItems);
@@ -64,17 +76,17 @@ public class MurderSelect : MonoBehaviour {
      * @param string ch: the name of the killer whose items you want to get
      * @param int num: the index of the killer from killerNames whose items you
      *      want to get
-     * @return string[]: returns an array of the items from the associated killer
+     * @return int[]: returns an array of the indices for the items for the associated killer
      *      from the parameter
      */
-    public string[] GetCharacterItems(string ch) {
+    public int[] GetCharacterItems(string ch) {
         return killers[ch];
     }
-    public string[] GetCharacterItems(int num) {
+    public int[] GetCharacterItems(int num) {
         return killers[killersNames[num]];
     }
-    public string GetCharacterItems(string ch, int i) {
-        string[] items = killers[ch];
+    public int GetCharacterItems(string ch, int i) {
+        int[] items = killers[ch];
         return items[i];
     }
     
