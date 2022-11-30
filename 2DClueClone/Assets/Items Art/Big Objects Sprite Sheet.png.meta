@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_0
+      name: Chemical Bottle
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_1
+      name: Chemical Bottle Bloody
       rect:
         serializedVersion: 2
         x: 64
@@ -146,7 +146,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_2
+      name: Knife
       rect:
         serializedVersion: 2
         x: 128
@@ -167,7 +167,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_3
+      name: Knife Bloody
       rect:
         serializedVersion: 2
         x: 192
@@ -188,7 +188,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_4
+      name: Candle Stick
       rect:
         serializedVersion: 2
         x: 256
@@ -209,7 +209,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_5
+      name: Candle Stick Bloody
       rect:
         serializedVersion: 2
         x: 0
@@ -230,7 +230,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_6
+      name: Jacket
       rect:
         serializedVersion: 2
         x: 64
@@ -251,7 +251,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_7
+      name: Dirty Jacket
       rect:
         serializedVersion: 2
         x: 128
@@ -272,7 +272,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_8
+      name: Broken Bottle
       rect:
         serializedVersion: 2
         x: 192
@@ -293,7 +293,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_9
+      name: Broken Bottle Bloody
       rect:
         serializedVersion: 2
         x: 256
@@ -314,7 +314,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_10
+      name: Cig Butt
       rect:
         serializedVersion: 2
         x: 0
@@ -335,7 +335,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_11
+      name: Cig Butt Bloody
       rect:
         serializedVersion: 2
         x: 64
@@ -356,7 +356,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_12
+      name: Rope
       rect:
         serializedVersion: 2
         x: 128
@@ -377,7 +377,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_13
+      name: Rope Bloody
       rect:
         serializedVersion: 2
         x: 192
@@ -398,7 +398,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,7 +411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_14
+      name: Shovel
       rect:
         serializedVersion: 2
         x: 256
@@ -419,7 +419,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_15
+      name: Shovel Bloody
       rect:
         serializedVersion: 2
         x: 0
@@ -440,7 +440,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_16
+      name: Watch
       rect:
         serializedVersion: 2
         x: 64
@@ -461,7 +461,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_17
+      name: Watch Bloody
       rect:
         serializedVersion: 2
         x: 128
@@ -482,7 +482,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_18
+      name: Letter Opener
       rect:
         serializedVersion: 2
         x: 192
@@ -503,7 +503,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Big Objects Sprite Sheet_19
+      name: Letter Opener Bloody
       rect:
         serializedVersion: 2
         x: 256
@@ -524,7 +524,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -547,26 +547,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Big Objects Sprite Sheet_7: -1164664249
-      Big Objects Sprite Sheet_6: -406183229
-      Big Objects Sprite Sheet_13: -689994942
-      Big Objects Sprite Sheet_10: 1535016258
-      Big Objects Sprite Sheet_18: -1336670940
-      Big Objects Sprite Sheet_3: -1672348448
-      Big Objects Sprite Sheet_12: 45435418
-      Big Objects Sprite Sheet_0: 812695417
-      Big Objects Sprite Sheet_4: -1062088494
-      Big Objects Sprite Sheet_2: 1465899742
-      Big Objects Sprite Sheet_17: 1933731569
-      Big Objects Sprite Sheet_9: 297835268
-      Big Objects Sprite Sheet_16: 1705195033
-      Big Objects Sprite Sheet_5: 848442247
-      Big Objects Sprite Sheet_19: 1186893648
-      Big Objects Sprite Sheet_1: -997594015
-      Big Objects Sprite Sheet_14: -310273562
-      Big Objects Sprite Sheet_15: -849297611
-      Big Objects Sprite Sheet_11: -1142883202
-      Big Objects Sprite Sheet_8: -2069061178
+      Watch: 1705195033
+      Rope Bloody: -689994942
+      Broken Bottle: -2069061178
+      Cig Butt: 1535016258
+      Jacket: -406183229
+      Letter Opener Bloody: 1186893648
+      Shovel Bloody: -849297611
+      Chemical Bottle Bloody: -997594015
+      Shovel: -310273562
+      Candle Stick: -1062088494
+      Knife: 1465899742
+      Candle Stick Bloody: 848442247
+      Dirty Jacket: -1164664249
+      Watch Bloody: 1933731569
+      Broken Bottle Bloody: 297835268
+      Cig Butt Bloody: -1142883202
+      Rope: 45435418
+      Knife Bloody: -1672348448
+      Letter Opener: -1336670940
+      Chemical Bottle: 812695417
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
