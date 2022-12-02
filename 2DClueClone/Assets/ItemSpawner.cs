@@ -5,7 +5,8 @@ using UnityEngine;
 public class ItemSpawner : MonoBehaviour
 {
     public GameObject[] items;
-    public Sprite[] bloodySprites;
+    public GameObject[] bloodItems;
+    
     public Transform[] spawnpoints;
 
     public MurderSelect murderManager;
@@ -21,13 +22,14 @@ public class ItemSpawner : MonoBehaviour
             UniqueNums();
         }
 
+        BloodyItems(murderManager.GetMuderer());
+
         foreach(int i in usedNums) {
             int temp = i;
             Instantiate(items[temp], spawnpoints[count].position, Quaternion.identity);
             count++;
         }
 
-        //Debug.Log("MurderSelect.GetCharacterItems(1): " + murderManager.GetMurderItems(1));
         //items[murderManager.GetCharacterItems(1)].sprite = bloodySprites[1];
         
     }
@@ -36,5 +38,13 @@ public class ItemSpawner : MonoBehaviour
         ranNum = Random.Range(0, items.Length);
         if(!usedNums.Contains(ranNum))
             usedNums.Add(ranNum);
+    }
+
+    public void BloodyItems(string name) {
+        //Debug.Log("Place holder text: " + name);
+        items[murderManager.GetCharacterItems(name, 0)] = bloodItems[murderManager.GetCharacterItems(name, 0)];
+        items[murderManager.GetCharacterItems(name, 1)] = bloodItems[murderManager.GetCharacterItems(name, 1)];
+        items[murderManager.GetCharacterItems(name, 2)] = bloodItems[murderManager.GetCharacterItems(name, 2)];
+        items[murderManager.GetCharacterItems(name, 3)] = bloodItems[murderManager.GetCharacterItems(name, 3)];
     }
 }
