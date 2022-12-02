@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody2D rb;
-    float movementSpeed = 5f;
+    float movementSpeed = 3f;
     Vector2 moveDirection;
+    bool canMove = true;
 
-    void Start() {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    public Camera cam;
+
 
     void Update() {
         moveDirection.x = Input.GetAxisRaw("Horizontal");
@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate() {
-        rb.MovePosition(rb.position + moveDirection * movementSpeed * Time.fixedDeltaTime);
+        //rb.MovePosition(rb.position + moveDirection * movementSpeed * Time.fixedDeltaTime);
+        if (canMove) 
+            rb.velocity = moveDirection * movementSpeed;
     }
 }
