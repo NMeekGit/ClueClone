@@ -8,6 +8,7 @@ public class Interactor : MonoBehaviour
     public float _interactionPointRadius;
     public LayerMask _interactableMask;
     public InteractionPromptUI _interactionPromptUI;
+    public ItemPopUpUI _itemPopUpUI;
 
     private readonly Collider2D[] _colliders = new Collider2D[3];
     public int _numFound;
@@ -24,8 +25,15 @@ public class Interactor : MonoBehaviour
                 if (!_interactionPromptUI.IsDisplayed) {
                     _interactionPromptUI.SetUp(_interactable.InteractionPrompt);
                 }
-                if (Input.GetKey("e")) {
+                if (Input.GetKeyDown("e")) {
                     _interactable.Interact(this);
+
+                    if(!_itemPopUpUI.IsDisplayed) {
+                        _itemPopUpUI.SetUp(_interactable.ItemPopUpPrompt, _interactable.InteractionSprite);
+                    }
+                }
+                if (_itemPopUpUI.IsDisplayed && Input.GetKeyDown("q")) {
+                    _itemPopUpUI.Close();
                 }
             }
         } else {

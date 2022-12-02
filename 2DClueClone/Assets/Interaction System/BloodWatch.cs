@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class BloodWatch : MonoBehaviour, IInteractable
 {
-    public string _prompt;
+    public string _interactionPrompt;
+    public string _itemPopUpPrompt;
+    public Sprite _sprite;
 
-    public string InteractionPrompt => _prompt;
+    public string InteractionPrompt => _interactionPrompt;
+    public string ItemPopUpPrompt => _itemPopUpPrompt;
+    public Sprite InteractionSprite => _sprite;
 
     public bool Interact (Interactor interactor) {
         Debug.Log("Interacting");
