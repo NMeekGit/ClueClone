@@ -23128,6 +23128,7 @@ GameObject:
   - component: {fileID: 1572313978}
   - component: {fileID: 1572313977}
   - component: {fileID: 1572313976}
+  - component: {fileID: 1572313981}
   m_Layer: 0
   m_Name: Player - detective
   m_TagString: Untagged
@@ -23149,6 +23150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1572313978}
   cam: {fileID: 0}
+  animator: {fileID: 1572313981}
 --- !u!61 &1572313977
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23264,6 +23266,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1572313981
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572313975}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 441c7893b2dfb294d9f5b4b8dbd84479, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1603398685
 GameObject:
   m_ObjectHideFlags: 0

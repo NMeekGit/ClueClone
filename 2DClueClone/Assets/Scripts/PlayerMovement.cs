@@ -10,11 +10,16 @@ public class PlayerMovement : MonoBehaviour {
     bool canMove = true;
 
     public Camera cam;
+    public Animator animator;
 
 
     void Update() {
         moveDirection.x = Input.GetAxisRaw("Horizontal");
         moveDirection.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", moveDirection.x);
+        animator.SetFloat("Vertical", moveDirection.y);
+        animator.SetFloat("Speed", moveDirection.sqrMagnitude);
     }
 
     // Update is called once per frame
