@@ -15,6 +15,7 @@ public class MurderSelect : MonoBehaviour {
     private string[] killersNames = {"Chef", "House Maid", "Gardener", "Pirate", "Butler", "Pool Boy"};
     private string killerDictionaryKey;
     private int[] killerItems;
+    private string theMurderer;
     
     // Awakes when the game starts and selects a killer
     void Awake() {
@@ -41,6 +42,7 @@ public class MurderSelect : MonoBehaviour {
      */
     private void SetKiller(int killVal) {
         
+        theMurderer = killersNames[killVal];
         killerDictionaryKey = killersNames[killVal];
 
         /* Item Indices (for alec)
@@ -89,5 +91,7 @@ public class MurderSelect : MonoBehaviour {
         int[] items = killers[ch];
         return items[i];
     }
-    
+    public string GetMuderer() {
+        return theMurderer;
+    }
 }
