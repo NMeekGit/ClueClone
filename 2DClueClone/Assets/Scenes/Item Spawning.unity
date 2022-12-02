@@ -348,17 +348,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd352155abc206c41899fd682913cfbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 6048291457864005153, guid: 3ca0cc1fa3e720c49b3854d2da166f41, type: 3}
-  - {fileID: 2912208848724935511, guid: 013538a1929147b4abb87b087797c248, type: 3}
-  - {fileID: 1847599581647213833, guid: a97bc72547323b44cad9da244029142c, type: 3}
-  - {fileID: 9029641840427170385, guid: f0c819ba26ab1fd449d4c9919fdee312, type: 3}
-  - {fileID: 8852107819060532634, guid: 9735c1748f4182a4ab751aed44778fc3, type: 3}
-  - {fileID: 4930409646312977332, guid: 4f1a7b8da85f6d04fa106f62cdf25151, type: 3}
-  - {fileID: 4985184162380493442, guid: 0e856753d031b83459dddb8ff59545f4, type: 3}
-  - {fileID: 126183107234225401, guid: 489cda7eea0aaf44f8eaf451b30c47ca, type: 3}
-  - {fileID: 380114000238693579, guid: a0117f32535e18747b95c0fa99e421df, type: 3}
-  - {fileID: 7813752603943503757, guid: 414a9a87f24559e43bce7b0402c32b5f, type: 3}
+  items: []
+  bloodySprites:
+  - {fileID: 297835268, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: 848442247, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -997594015, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -1142883202, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -1164664249, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -1672348448, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: 1186893648, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -689994942, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: -849297611, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
+  - {fileID: 1933731569, guid: dae567520985ccc49b8d8b3f6789f759, type: 3}
   spawnpoints:
   - {fileID: 2074175152}
   - {fileID: 1793034126}
@@ -370,6 +371,7 @@ MonoBehaviour:
   - {fileID: 1464818072}
   - {fileID: 738856653}
   - {fileID: 927537919}
+  murderManager: {fileID: 2041859798}
 --- !u!4 &873447312
 Transform:
   m_ObjectHideFlags: 0
@@ -592,6 +594,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 731481227}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2041859797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2041859799}
+  - component: {fileID: 2041859798}
+  m_Layer: 0
+  m_Name: Game Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2041859798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041859797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9b13d2bd6e46744beabcb97a39f256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2041859799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041859797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074175151
 GameObject:
